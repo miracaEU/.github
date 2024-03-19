@@ -1,0 +1,8 @@
+name: miraca
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - jupyter
+  - rasterio
+  - xarray
