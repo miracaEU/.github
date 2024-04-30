@@ -17,10 +17,10 @@ jobs:
           cache-environment: true
       - name: Format
         run: |
-          black --check src tests
+          micromamba run -n miraca black --check src tests
       - name: Lint
         run: |
-          ruff check src tests
+          micromamba run -n miraca  ruff check src tests
       - name: Run pytest
         run: |
-          pytest tests
+          micromamba run -n miraca pytest tests
