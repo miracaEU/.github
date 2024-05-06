@@ -8,10 +8,10 @@ def example_function(x, y):
         Description of parameter `x`.
     y :
         Description of parameter `y` (with type not specified).
-    
+
     Returns
     -------
     out : int
           Description of the output.
     """
-    return x+y
+    return x + y
